@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cherry Tuesday</title>
+  <meta name="description" content="Cherry Tuesday – Band. Neues Album „Peace, Joy, Pancakes“, Konzerte und Booking.">
+  <meta property="og:title" content="Cherry Tuesday">
+  <meta property="og:description" content="Peace, Joy, Pancakes – das neue Album.">
+  <meta property="og:image" content="assets/img/cover.jpg">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preload" href="assets/fonts/bagel-fat-one-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Cherry Tuesday – nach oben">
+      <img src="assets/img/logo.png" alt="" width="40" height="49">
+      <span>Cherry Tuesday</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menü</button>
+    <nav id="nav" class="nav">
+      <a href="#album">Album</a>
+      <a href="#band">Band</a>
+      <a href="#konzerte">Konzerte</a>
+      <a href="#live">Live</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero: Logo + Albumhülle mit Schallplatte -->
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <h1 class="hero-logo">
+          <img src="assets/img/logo.png" alt="Cherry Tuesday" width="800" height="975">
+        </h1>
+      </div>
+
+      <div class="hero-record" id="album">
+        <div class="sleeve-wrap">
+          <div class="vinyl" aria-hidden="true"><span class="vinyl-label"></span></div>
+          <img class="sleeve" src="assets/img/cover.jpg" alt="Albumcover „Peace, Joy, Pancakes“: ein Stapel Pfannkuchen mit Kirschen auf Aquarell-Hintergrund" width="1400" height="1400">
+        </div>
+        <div class="album-info">
+          <p class="album-kicker">Das neue Album</p>
+          <h2 class="album-title">Peace, Joy, Pancakes</h2>
+          <p>Aufgenommen 2025 im Studio – mit Klavier, Klarinette, zwei Stimmen und viel Sirup.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#">Album anhören</a>
+            <a class="btn btn-ghost" href="#konzerte">Konzerte ansehen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Band -->
+    <section class="band" id="band">
+      <div class="band-intro">
+        <h2>Die Band</h2>
+        <p class="lead">Cherry Tuesday ist Musik für den Tag, an dem die Woche endlich Fahrt aufnimmt: warm, verspielt und mit Lust am gemeinsamen Singen.</p>
+        <p>Zwei Stimmen, Klavier, Gitarre, Bass, Schlagzeug und Klarinette – live auf der Bühne genauso zu Hause wie im Studio. Für „Peace, Joy, Pancakes“ haben wir uns 2025 zusammen in einen Raum gesetzt und die Songs so aufgenommen, wie sie sich bei uns im Proberaum anfühlen.</p>
+      </div>
+      <figure class="band-photo">
+        <img src="assets/img/band-live.jpg" alt="Cherry Tuesday live auf der Bühne: Gesang, Schlagzeug, Klavier und Gitarre" loading="lazy" width="1800" height="1800">
+      </figure>
+
+      <h3 class="studio-heading">Im Studio</h3>
+      <ul class="studio" role="list">
+        <li><img src="assets/img/studio-052.jpg" alt="Sängerin im Aufnahmeraum" loading="lazy" width="1400" height="2100"><span>Am Mikrofon</span></li>
+        <li><img src="assets/img/studio-212.jpg" alt="Pianist mit Kopfhörern" loading="lazy" width="1400" height="2100"><span>Am Klavier</span></li>
+        <li><img src="assets/img/studio-121.jpg" alt="Klarinettist im Aufnahmeraum" loading="lazy" width="1400" height="2100"><span>An der Klarinette</span></li>
+        <li><img src="assets/img/studio-077.jpg" alt="Schlagzeuger mit Kopfhörern" loading="lazy" width="1400" height="2100"><span>Am Schlagzeug</span></li>
+        <li><img src="assets/img/studio-206.jpg" alt="Gitarrist und Schlagzeuger bei der Aufnahme" loading="lazy" width="1400" height="2100"><span>An der Gitarre</span></li>
+      </ul>
+    </section>
+
+    <!-- Konzerte (werden aus js/main.js befüllt) -->
+    <section class="gigs" id="konzerte">
+      <div class="gigs-panel">
+        <h2>Konzerte</h2>
+        <ol class="gig-list" id="gig-list" role="list"></ol>
+        <details class="past" id="past-wrap" hidden>
+          <summary>Vergangene Konzerte</summary>
+          <ol class="gig-list gig-list--past" id="past-list" role="list"></ol>
+        </details>
+      </div>
+    </section>
+
+    <!-- Live-Galerie -->
+    <section class="live" id="live">
+      <h2>Live</h2>
+      <div class="gallery" id="gallery">
+        <a href="assets/img/live-4481.jpg"><img src="assets/img/live-4481.jpg" alt="Sängerin im roten Kleid im blauen Bühnenlicht" loading="lazy" width="1400" height="2104"></a>
+        <a href="assets/img/live-4448.jpg"><img src="assets/img/live-4448.jpg" alt="Pianist am Flügel im violetten Licht" loading="lazy" width="1400" height="2104"></a>
+        <a href="assets/img/live-4457.jpg"><img src="assets/img/live-4457.jpg" alt="Bassist in gelbem Shirt unter blauen Scheinwerfern" loading="lazy" width="1400" height="2104"></a>
+        <a href="assets/img/live-4454.jpg"><img src="assets/img/live-4454.jpg" alt="Schlagzeuger im blauen Licht" loading="lazy" width="1400" height="2104"></a>
+        <a href="assets/img/live-4437.jpg"><img src="assets/img/live-4437.jpg" alt="Sänger im grünen Anzug und Sängerin auf der Bühne" loading="lazy" width="1400" height="2104"></a>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="contact" id="kontakt">
+      <h2>Bucht uns</h2>
+      <p>Für Konzerte, Feste und alles, wozu Pfannkuchen passen, schreibt uns einfach eine Mail.</p>
+      <a class="contact-mail" href="mailto:booking@cherry-tuesday.de">booking@cherry-tuesday.de</a>
+      <ul class="social" role="list">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Spotify</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Cherry Tuesday</p>
+    <a href="#">Impressum</a>
+    <a href="#">Datenschutz</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Foto vergrößert">
+    <img id="lightbox-img" src="" alt="">
+    <button class="lb-btn lb-prev" data-dir="-1" aria-label="Vorheriges Foto">‹</button>
+    <button class="lb-btn lb-next" data-dir="1" aria-label="Nächstes Foto">›</button>
+    <button class="lb-btn lb-close" aria-label="Schließen">×</button>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

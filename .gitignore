@@ -1,0 +1,7 @@
+# Original-Bildmaterial (~200 MB) – nicht versionieren, web-optimierte Kopien liegen in assets/img/
+/originale/
+
+.DS_Store
+
+# Vorschau-PDF zum Rumschicken
+*.pdf
