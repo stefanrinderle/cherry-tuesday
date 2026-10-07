@@ -27,7 +27,7 @@ jobs:
       - name: Website zusammenstellen
         run: |
           mkdir _site
-          cp -r index.html css js assets _site/
+          cp -r *.html css js assets _site/
           [ -f CNAME ] && cp CNAME _site/ || true
 
       - uses: actions/configure-pages@v5
