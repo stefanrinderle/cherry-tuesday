@@ -2,10 +2,12 @@
    KONZERTE – hier pflegen.
    Datum im Format JJJJ-MM-TT. Vergangene Termine wandern
    automatisch in "Vergangene Konzerte".
-   Beispiel:
-   { date: "2026-11-17", venue: "Hemingway Lounge", city: "Karlsruhe", link: "https://..." },
+   Beispiel (time und link sind optional):
+   { date: "2026-11-17", time: "20:00", venue: "Hemingway Lounge", city: "Karlsruhe", link: "https://..." },
    ========================================================== */
 const GIGS = [
+  { date: "2026-10-17", time: "16:30", venue: "New Bands Festival: Semifinale im P8", city: "Karlsruhe", link: "https://www.p-acht.org/events/new-bands-semifinale" },
+  { date: "2026-06-05", venue: "New Bands Festival: 3. Vorrunde im Tempel", city: "Karlsruhe" },
 ];
 
 const MONTHS = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
@@ -25,7 +27,7 @@ function gigItem(gig, withLink) {
   const venue = document.createElement("strong");
   venue.textContent = gig.venue;
   const city = document.createElement("span");
-  city.textContent = gig.city;
+  city.textContent = gig.time ? `${gig.city}, ${gig.time} Uhr` : gig.city;
   where.append(venue, city);
 
   li.append(date, where);

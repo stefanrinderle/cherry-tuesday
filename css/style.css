@@ -179,7 +179,12 @@ p { margin: 0 0 1em; max-width: 38em; }
   filter: grayscale(1) contrast(1.05);
   border-radius: 3px;
 }
-.studio span { display: block; margin-top: .5rem; font-weight: 600; }
+.studio strong {
+  display: block; margin-top: .6rem;
+  font-family: var(--font-display); font-weight: 400;
+  font-size: 1.4rem; line-height: 1.1; color: var(--kirschmark);
+}
+.studio span { display: block; font-size: .95rem; }
 
 @media (max-width: 820px) {
   .band { grid-template-columns: 1fr; }
