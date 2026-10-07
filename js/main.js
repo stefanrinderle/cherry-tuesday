@@ -2,13 +2,10 @@
    KONZERTE – hier pflegen.
    Datum im Format JJJJ-MM-TT. Vergangene Termine wandern
    automatisch in "Vergangene Konzerte".
-   ACHTUNG: Die Einträge unten sind Beispiele!
+   Beispiel:
+   { date: "2026-11-17", venue: "Hemingway Lounge", city: "Karlsruhe", link: "https://..." },
    ========================================================== */
 const GIGS = [
-  { date: "2026-10-13", venue: "Beispiel: Club A", city: "Karlsruhe", link: "https://example.com" },
-  { date: "2026-11-17", venue: "Beispiel: Club B", city: "Karlsruhe", link: "" },
-  { date: "2026-12-08", venue: "Beispiel: Bühne C", city: "Stuttgart", link: "" },
-  { date: "2025-06-10", venue: "Beispiel: Hemingway Lounge (Datum?)", city: "Karlsruhe" },
 ];
 
 const MONTHS = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
