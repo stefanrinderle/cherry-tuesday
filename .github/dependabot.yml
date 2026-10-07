@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Die einzigen Abhängigkeiten im Projekt: die Actions im Deploy-Workflow
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "Actions"
