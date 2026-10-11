@@ -6,7 +6,7 @@
    { date: "2026-11-17", time: "20:00", venue: "Hemingway Lounge", city: "Karlsruhe", link: "https://..." },
    ========================================================== */
 const GIGS = [
-  { date: "2026-10-17", time: "16:30", venue: "New Bands Festival: Semifinale im P8", city: "Karlsruhe", link: "https://www.p-acht.org/events/new-bands-semifinale" },
+  { date: "2026-10-17", time: "19:00", venue: "New Bands Festival: Semifinale im P8", city: "Karlsruhe", link: "https://www.p-acht.org/events/new-bands-semifinale" },
   { date: "2026-06-05", venue: "New Bands Festival: 3. Vorrunde im Tempel", city: "Karlsruhe" },
 ];
 
